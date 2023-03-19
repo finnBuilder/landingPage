@@ -4,12 +4,14 @@
   padding: 0;
 }
 
+/* Header Section */
+
 header {
   background-color: #1f2937;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 100px;
+  padding: 20px 200px;
 }
 
 .logo {
@@ -34,35 +36,72 @@ ul {
 .hero {
   background-color: #1f2937;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  padding: 100px;
-  gap: 40px;
-}
-
-.hero .left {
-  
+  gap: 20px;
+  padding: 150px 200px 200px 200px;
 }
 
 .hero .title {
   font-size: 48px;
   color: #f9faf8;
   font-weight: bolder;
-  
 }
 
 .hero .text {
   font-size: 18px;
   color: #e5e7eb;
   margin: 4px 0 12px 0;
-
 }
 
 .hero button {
-  background-color: rgb(5, 126, 201);
+  background-color: #3882f6;
   color: #f9faf8;
   border: none;
   padding: 4px 16px;
   border-radius: 4px;
   font-weight: bold;
-  
+  font-size: 18px;
 }
+
+/*Main Section */
+main {
+  padding: 26px 0 80px 0;
+  height: 500px;
+}
+main .header {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  text-align: center;
+  padding-bottom: 30px;
+}
+main .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 36px;
+}
+
+main .container .box {
+  width: 200px;
+  color: #555;
+  text-align: center;
+}
+
+main img {
+  height: 200px;
+  width: 200px;
+}
+
+main .container .box img {
+  border: 3px solid #3882f6;
+  border-radius: 8px;
+}
+
+main .text {
+  font-size: 18px;
+}
+
+/* Quote Section */
+
