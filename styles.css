@@ -104,4 +104,28 @@ main .text {
 }
 
 /* Quote Section */
+.quote {
+  background-color: #e5e7eb;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.quote .container {
+  font-size: 36px;
+  width: 50%;
+  
+}
+
+.quote .text {
+  font-style: italic;
+}
+
+.quote .name {
+  text-align: right;
+  font-weight: bold;
+  padding-right: 20px;
+  padding-top: 8px;
+  font-size: 26px;
+}
